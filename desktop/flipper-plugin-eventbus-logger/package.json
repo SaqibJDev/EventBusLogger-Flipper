@@ -1,0 +1,56 @@
+{
+  "$schema": "https://fbflipper.com/schemas/plugin-package/v2.json",
+  "name": "flipper-plugin-eventbus-logger",
+  "id": "eventbus-logger",
+  "title": "Event Bus Logger",
+  "version": "1.0.0",
+  "pluginType": "client",
+  "description": "EventBus logger helps to visualize the events emitting from your mobile application using eventbus. It works with the mobile application plugin that sends data.",
+  "main": "dist/bundle.js",
+  "flipperBundlerEntry": "src/index.tsx",
+  "author": "Hafiz Saqib Javed",
+  "license": "MIT",
+  "homepage": "https://github.com/SaqibJDev/EventBusLogger-Flipper",
+  "bugs": {
+    "url": "https://github.com/SaqibJDev/EventBusLogger-Flipper/issues",
+    "email": "saqib.javed87@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SaqibJDev/EventBusLogger-Flipper"
+  },
+  "keywords": [
+    "flipper-plugin",
+    "eventbus",
+    "logger"
+  ],
+  "icon": "bus",
+  "scripts": {
+    "lint": "flipper-pkg lint",
+    "prepack": "flipper-pkg lint && flipper-pkg bundle",
+    "build": "flipper-pkg bundle",
+    "watch": "flipper-pkg bundle --watch",
+    "test": "jest --no-watchman"
+  },
+  "peerDependencies": {
+    "flipper": "latest",
+    "flipper-plugin": "latest"
+  },
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.15.0",
+    "@babel/core":"^7.0.0",
+    "@testing-library/dom":"^7.26.3",
+    "@testing-library/react":"^11.1.0",
+    "@types/react": "latest",
+    "@types/jest": "latest",
+    "flipper": "latest",
+    "flipper-plugin": "latest",
+    "flipper-pkg": "^0.100.0",
+    "react": "latest",
+    "@types/react-dom": "latest",
+    "react-dom": "*",
+    "antd": "latest",
+    "jest": "latest",
+    "typescript": "latest"
+  }
+}
