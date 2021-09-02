@@ -5,7 +5,7 @@
   "title": "Event Bus Logger",
   "version": "1.0.0",
   "pluginType": "client",
-  "description": "EventBus logger helps to visualize the events emitting from your mobile application using eventbus. It works with the mobile application plugin that sends data.",
+  "description": "An inspector to visualize the events emitting from your mobile application using eventbus. It works with the mobile application plugin that sends event data.",
   "main": "dist/bundle.js",
   "flipperBundlerEntry": "src/index.tsx",
   "author": "Hafiz Saqib Javed",
@@ -22,7 +22,8 @@
   "keywords": [
     "flipper-plugin",
     "eventbus",
-    "logger"
+    "logger",
+    "eventbus-tools"
   ],
   "icon": "bus",
   "scripts": {
