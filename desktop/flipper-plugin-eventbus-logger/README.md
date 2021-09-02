@@ -1,12 +1,4 @@
 
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
 [![GitHub forks](https://img.shields.io/github/forks/SaqibJDev/EventBusLogger-Flipper)](https://github.com/SaqibJDev/EventBusLogger-Flipper/network)
 [![GitHub stars](https://img.shields.io/github/stars/SaqibJDev/EventBusLogger-Flipper)](https://github.com/SaqibJDev/EventBusLogger-Flipper/stargazers)
 [![GitHub issues](https://img.shields.io/github/issues/SaqibJDev/EventBusLogger-Flipper)](https://github.com/SaqibJDev/EventBusLogger-Flipper/issues)
