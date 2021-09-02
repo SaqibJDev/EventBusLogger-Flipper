@@ -1,16 +1,3 @@
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Thanks again! Now go create something AMAZING! :D
-***
-***
-***
-*** To avoid retyping too much info. Do a search and replace for the following:
-*** github_username, repo_name, twitter_handle, email, project_title, project_description
--->
-
-
 
 <!-- PROJECT SHIELDS -->
 <!--
@@ -20,12 +7,10 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+[![GitHub forks](https://img.shields.io/github/forks/SaqibJDev/EventBusLogger-Flipper)](https://github.com/SaqibJDev/EventBusLogger-Flipper/network)
+[![GitHub stars](https://img.shields.io/github/stars/SaqibJDev/EventBusLogger-Flipper)](https://github.com/SaqibJDev/EventBusLogger-Flipper/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/SaqibJDev/EventBusLogger-Flipper)](https://github.com/SaqibJDev/EventBusLogger-Flipper/issues)
+[![GitHub license](https://img.shields.io/github/license/SaqibJDev/EventBusLogger-Flipper)](https://github.com/SaqibJDev/EventBusLogger-Flipper/blob/main/LICENSE)
 
 
 
@@ -53,13 +38,12 @@
 </p>
 
 
-
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
   <ol>
     <li>
-      <a href="#Introduction">Introduction</a>
+      <a href="#introduction">Introduction</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
       </ul>
@@ -69,8 +53,8 @@
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
-        <li><a href="#Application setup">Application setup</a></li>
-        <li><a href="#Flipper setup">Flipper setup</a></li>
+        <li><a href="#application-setup">Application setup</a></li>
+        <li><a href="#flipper-setup">Flipper setup</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
@@ -97,7 +81,7 @@ This Plugin is especially helpful during the debugging phase to track-down the e
 ### Built With
 
 * [flipper-plugin](https://fbflipper.com/docs/tutorial/intro)
-* [Android]()
+* [EventBus](https://github.com/greenrobot/EventBus)
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -128,6 +112,7 @@ You'll need to integrate the Flipper in your app. Follow the official instructio
 5. Install eventbus-logger
 6. Reload Flipper
 <p align="center">
+<img src="docs/images/flipper-plugin-manager.png" width="300" height="300" />
     <img src="docs/images/install-desktop-plugin.png" />
   </p>
 
