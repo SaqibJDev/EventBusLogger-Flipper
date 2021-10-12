@@ -1,4 +1,4 @@
-package io.bloco.template.domain
+package com.flipper.eventbuslogger.sample
 
 import com.flipper.evenbuslogger.sample.domain.GetAndSetCounter
 import com.nhaarman.mockitokotlin2.mock
