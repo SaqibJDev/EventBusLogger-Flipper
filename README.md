@@ -102,8 +102,9 @@ You'll need to integrate the Flipper in your app. Follow the official instructio
 5. Install eventbus-logger
 6. Reload Flipper
 <p align="center">
-<img src="docs/images/flipper-plugin-manager.png" width="300" height="300" />
+    <img src="docs/images/flipper-plugin-manager.png" width="300" height="300" />
     <img src="docs/images/install-desktop-plugin.png" />
+    <img src="docs/images/flipper-desktop-plugin-demo.png" />
   </p>
 
 
@@ -115,7 +116,7 @@ In order to see the details, simply click on any event row.
 The plugin supports the following details:
 1. Event Class name
 2. Event type (Post Event, Post Sticky, Remove Sticky)
-3. Timestamp 
+3. Timestamp
 4. Details
    1. Key Value map data (if sent via application plugin)
    2. Json Event Body (if class has data members)
@@ -149,4 +150,3 @@ Distributed under the MIT License. See `LICENSE` for more information.
 Hafiz Saqib Javed - [@Saqib_J](https://twitter.com/Saqib_J) - saqib.javed87@gmail.com
 
 Project Link: [https://github.com/SaqibJDev/EventBusLogger-Flipper](https://github.com/SaqibJDev/EventBusLogger-Flipper)
-
