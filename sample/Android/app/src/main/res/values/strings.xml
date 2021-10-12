@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">EventBus Logger</string>
+    <string name="error_message">Can\'t decrease more</string>
+    <string name="counter">Counter:</string>
+    <string name="counter_default_value">0</string>
+    <string name="event_increment">Increment</string>
+    <string name="event_decrement">Decrement</string>
+    <string name="event_save">Save to repo</string>
+    <string name="event_remove">Reset timer</string>
+</resources>
